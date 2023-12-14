@@ -16,7 +16,11 @@ header nav {
   z-index: 100;
 }
 
-@media screen and (min-width: 800px) {
+.aboutimg {
+  width: 350px;
+}
+
+@media screen and (max-width: 400px) {
   .aboutimg {
     width: 600px;
     height: 400px;
