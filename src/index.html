@@ -21,7 +21,6 @@
     <link rel="apple-touch-icon" href="webclip.png" />
     <!-- CSS -->
     <link rel="stylesheet" href="/src/css/reset.css" />
-    <link rel="stylesheet" type="text/css" href="/src/css/scroll.css" />
     <link rel="stylesheet" href="/src/css/style.css" />
     <!-- <link
       href="https://cdn.jsdelivr.net/gh/vaibhav111tandon/vov.css@latest/vov.css"
@@ -44,10 +43,14 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" type="text/css" href="/src/css/scroll.css" />
+    <link rel="stylesheet" type="text/css" href="/src/css/pagetop.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav
+        class="navbar navbar-dark bg-dark sticky-top navbar-expand-lg navbar-light bg-light"
+      >
         <div class="container-fluid">
           <a class="navbar-brand" href="#">yu-rimasui</a>
           <button
@@ -101,7 +104,14 @@
         <p class="p-4 fs-1">
           Try not become a man of success but rather to become a man of value.
         </p>
-        <div class="py-5"><img src="img/about.jpg" alt="about me" /></div>
+        <div class="aboutimg my-5">
+          <img
+            src="img/about.jpg"
+            alt="about me"
+            width="600px"
+            height="400px"
+          />
+        </div>
         <div class="px-4">
           <p>　増井 夕莉</p>
           <p>
@@ -126,7 +136,7 @@
         </p>
         <div class="p-4">
           <!-- カード(ASC) -->
-          <article class="card my-3">
+          <article class="card my-3" style="max-width: 40rem">
             <img src="img/work01.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Portfolio ver.01</h5>
@@ -142,7 +152,7 @@
               >
             </div>
           </article>
-          <article class="card my-3">
+          <article class="card my-3" style="max-width: 40rem">
             <img src="img/work02.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Cafe Site</h5>
@@ -158,7 +168,7 @@
               >
             </div>
           </article>
-          <article class="card my-3">
+          <article class="card my-3" style="max-width: 40rem">
             <img src="img/work03.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
@@ -174,7 +184,7 @@
               </a>
             </div>
           </article>
-          <article class="card my-3">
+          <article class="card my-3" style="max-width: 40rem">
             <img src="img/work04.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Weekly Calendar</h5>
@@ -193,7 +203,7 @@
               </a>
             </div>
           </article>
-          <article class="card my-3">
+          <article class="card my-3" style="max-width: 40rem">
             <img src="img/work05.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Reminder App</h5>
@@ -218,8 +228,17 @@
     <footer
       class="bg-dark d-flex justify-content-center align-items-center"
       style="height: 6rem"
+      id="footer"
     >
-      <small class="text-white">&copy;yu-rimasui</small>
+      <p id="page-top"><a href="#">Page Top</a></p>
+      <small class="text-white">&copy; yu-rimasui</small>
     </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!--自作のJS-->
+    <script src="js/pagetop.js"></script>
   </body>
 </html>
