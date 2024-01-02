@@ -77,7 +77,7 @@
                   >Contact</a
                 >
               </li>
-              <li class="nav-item pt-3">
+              <li class="nav-item">
                 <a
                   class="nav-link"
                   href="https://github.com/yu-rimasui"
@@ -109,19 +109,101 @@
         <div class="card my-3" style="max-width: 40rem">
           <img src="img/about.jpg" class="card-img-top" alt="about me" />
           <div class="card-body">
-            <p>　増井 夕莉</p>
             <p>
-              ・東京出身の21歳。<br />
-              ・自分の作りたいものを、企画して、仕組みを考え、実装していく流れと、
-              完成したときの達成感が好き。<br />
-              ・現在は、リマインダーアプリをつくってて、FireBaseに苦戦中。<br />
-              ・ReactNativeも勉強し始めました。
-            </p>
-            <p class="pt-4">　使用言語は…</p>
-            <p>
-              HTML, CSS, JavaScript, React, TypeScript, Nodejs, MySQL, AWS 等<br />
+              ・はじめまして。masuiと申します。平成14年生まれの21歳エンジニアです。<br />
+              ・趣味は、お笑い観賞・ドラマ・映画。芸人は、特に空気階段が好きでラジオも聞いてます。<br />
+              ・Web開発は、自分が作りたいとイメージしたものを企画・設計・実装していく過程や、
+              完成したときの達成感が好きです。<br />
+              ・将来は、実現したい夢があり、まずはフルスタックエンジニアになってIoT業界に参画したいと考えています。<br />
             </p>
           </div>
+        </div>
+      </div>
+
+      <!-- skills -->
+      <div id="skills" class="mx-3 my-5">
+        <h2 class="fw-bold">skills</h2>
+        <!-- <p class="p-4 fs-1">
+          If you don’t like where you are, change it. You’re not a tree.
+        </p> -->
+        <div class="m-0">
+          <!-- skillsカード(ASC) -->
+          <article class="card my-3" style="max-width: 40rem">
+            <div class="card-header">デザイン・コーディング</div>
+            <p class="card-text pt-3">
+              　CSSのフレームワークはBootstrapやTailwind(DasiyUI)を使います。
+            </p>
+            <table class="table table-borderless mx-5">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">HTML</th>
+                  <td>1年</td>
+                </tr>
+                <tr>
+                  <th scope="row">CSS</th>
+                  <td>半年</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+          <article class="card my-3" style="max-width: 40rem">
+            <div class="card-header">フロントエンド</div>
+            <p class="card-text pt-3">
+              　JavaScriptのライブラリにはReact.jsを使っています。
+            </p>
+            <table class="table table-borderless mx-5">
+              <thead>
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">C</th>
+                  <td>1年</td>
+                </tr>
+                <tr>
+                  <th scope="row">JavaScript</th>
+                  <td>半年</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+          <article class="card my-3" style="max-width: 40rem">
+            <div class="card-header">バックエンド</div>
+            <p class="card-text py-3">　勉強中です。。</p>
+          </article>
+          <article class="card my-3" style="max-width: 40rem">
+            <div class="card-header">データベース</div>
+            <p class="card-text pt-3">
+              　これからどんどんアウトプットしていきます。
+            </p>
+            <table class="table table-borderless mx-5">
+              <thead class="">
+                <tr>
+                  <th scope="col">技術</th>
+                  <th scope="col">経験年数</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">MySQL</th>
+                  <td>半年</td>
+                </tr>
+                <tr>
+                  <th scope="row">FireBase</th>
+                  <td>半年</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
         </div>
       </div>
 
@@ -132,24 +214,22 @@
           If you don’t like where you are, change it. You’re not a tree.
         </p>
         <div class="m-0">
-          <!-- カード(ASC) -->
+          <!-- worksカード(ASC) -->
           <article class="card my-3" style="max-width: 40rem">
             <img src="img/work01.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Portfolio ver.01</h5>
-              <p class="card-text">
-                webデザインを学習して一番最初に作った制作物。<br />
-                こだわりはうさぎのロゴ。我ながら自分の書くうさぎが好き。
-              </p>
+              <h5 class="card-title">Portfolio</h5>
+              <p class="card-text">自分自身のポートフォリオです。</p>
+              <p class="card-text">HTML/CSS/bootstrap</p>
               <a
-                href="https://yu-rimasui.github.io/portfolio/"
+                href="https://my-portfolio-jade-nine-56.vercel.app/"
                 class="btn btn-outline-dark"
                 target="_blank"
                 >Take a look 😊</a
               >
             </div>
           </article>
-          <article class="card my-3" style="max-width: 40rem">
+          <!-- <article class="card my-3" style="max-width: 40rem">
             <img src="img/work02.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Cafe Site</h5>
@@ -164,15 +244,16 @@
                 >Take a look ☕</a
               >
             </div>
-          </article>
+          </article> -->
           <article class="card my-3" style="max-width: 40rem">
             <img src="img/work03.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Calculator</h5>
               <p class="card-text">
-                React勉強したくてつくった初めてのWebアプリ。<br />
-                電卓以外の要素にこだわってしまいました笑
+                電卓のWebアプリです。<br />
+                Reactのアウトプットと遊び心で作りました。<br />
               </p>
+              <p class="card-text">HTML/CSS/Bootstrap/JavaScript(React)</p>
               <a
                 href="https://yu-rimasui.github.io/calculator/"
                 class="btn btn-outline-dark"
@@ -186,11 +267,15 @@
             <div class="card-body">
               <h5 class="card-title">Weekly Calendar</h5>
               <p class="card-text">
-                初めてCRUDを意識してつくったアプリ。<br />
-                一週間の予定を、時間割アプリのように管理するアプリ。<br />
-                デザインも気に入ってないし、データベースにつなげて
-                端末ごとに表示できるようにしたい。<br />
-                課題残ってます。。
+                一週間の時間割アプリです。<br />
+                　大学の時間割アプリに加えて、
+                バイトなど毎週固定の予定を組み込めるアプリが欲しいと思い、
+                実装しました。<br />
+                　予定の時間をスケジュールアプリのように
+                自由に設定できるようにしたところがこだわりです。
+              </p>
+              <p class="card-text">
+                HTML/CSS/BootStrap/JavaScript(React)/Nodejs/MySQL
               </p>
               <a
                 href="https://yu-rimasui.github.io/scheduleApp/"
@@ -205,11 +290,15 @@
             <div class="card-body">
               <h5 class="card-title">Reminder App</h5>
               <p class="card-text">
-                卒業制作（未完成）<br />
-                タスク管理する管理者と、タスクを閲覧するユーザーに機能が分かれていて、
-                一定のコミュニティに対して、タスクの一括管理ができます。<br />
-                ログイン機能など実装したい機能がたくさん追加される予定(？)
+                同期型タスク管理アプリです。<br />
+                　大学の課題ページが使いづらいと感じたので、
+                ゼミや研究室等で使えるタスク管理アプリを作りました。<br />
+                　仕様は、タスク管理(追加・編集・削除)できる管理者画面と、
+                タスクを閲覧できるユーザー画面を作り、
+                ログイン画面によって2つを切り替えられるようにしました。<br />
+                　一定のコミュニティに対して、タスクの一括管理ができるところがポイントです。<br />
               </p>
+              <p class="card-text">TailWind/JavaScript(React)/FireBase</p>
               <a
                 href="https://yu-rimasui.github.io/work06_reminder/"
                 class="btn btn-outline-dark"
