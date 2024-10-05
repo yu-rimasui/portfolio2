@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
 body {
+  margin: 0;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; /*横スクロール禁止*/
 }
 
 header {
@@ -16,19 +24,25 @@ header nav {
   z-index: 100;
 }
 
-.aboutimg {
-  width: 380px;
-}
-
-@media screen and (max-width: 400px) {
-  .aboutimg {
-    width: 600px;
-    height: 400px;
+@media screen and (min-width: 680px) {
+  main {
+    margin-left: 80px;
+    margin-right: 200px;
+  }
+  .r_img {
+    width: 400px;
+  }
+  .r_card {
+    /* width: 500px; */
+    margin-left: 40px;
+    margin-right: 100px;
   }
 }
 
-@media screen and (min-width: 800px) {
-  .cardbody {
-    width: 600px;
-  }
+p {
+  display: inline-block;
+}
+
+.ff_JS {
+  font-family: "Josefin Sans", sans-serif;
 }

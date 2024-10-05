@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>yu-rimasui portfolio</title>
-    <meta name="description" content="増井夕莉のポートフォリオです。" />
+    <title>masui.y's portfolio</title>
+    <meta name="description" content="masui.yのポートフォリオです。" />
     <!-- favicon -->
     <link rel="icon" href="" type="image/png" />
     <!-- google fonts -->
@@ -16,6 +16,7 @@
     />
     <!-- meta -->
     <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="favicon.png" type="image/png" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="webclip.png" />
@@ -44,7 +45,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">yu-rimasui</a>
+          <a class="navbar-brand fw-bold ff_JS" href="#">masui.y</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -59,20 +60,24 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#about">about</a>
+                <a class="nav-link ff_JS" aria-current="page" href="#about"
+                  >about</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#works">works</a>
+                <a class="nav-link ff_JS" aria-current="page" href="#works"
+                  >works</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link fw-bold ff_JS" href="#">>Contact</a>
               </li>
-              <li class="nav-item pt-3">
+              <li class="nav-item">
                 <a
-                  class="nav-link"
+                  class="nav-link fw-bold ff_JS"
                   href="https://github.com/yu-rimasui"
                   target="_blank"
-                  >GitHub</a
+                  >>GitHub</a
                 >
               </li>
             </ul>
@@ -89,48 +94,66 @@
       <div class="scrolldown2"><span>Scroll</span></div>
     </header>
 
-    <main style="font-family: Josefin Sans">
+    <main>
       <!-- about -->
       <div id="about" class="mx-3 my-5">
-        <h2 class="fw-bold">about</h2>
-        <p class="p-4 fs-1">
-          Try not become a man of success but rather to become a man of value.
+        <h2 class="fw-bold ff_JS">about</h2>
+        <p class="p-4 fs-2 ff_JS">
+          The development of IoT brings the world closer to the future.
         </p>
-        <div class="py-5"><img src="img/about.jpg" alt="about me" /></div>
-        <div class="px-4">
-          <p>　増井 夕莉</p>
+        <div class="py-5">
+          <img class="r_img" src="img/about.jpg" alt="..." />
+        </div>
+        <div class="px-4 pb-5 mb-5">
+          <h5 class="pb-3">「私について」</h5>
+          <h6>SFの世界に魅了されている地方国立大学生</h6>
           <p>
-            ・東京出身の21歳。<br />
-            ・自分の作りたいものを、企画して、仕組みを考え、実装していく流れと、
-            完成したときの達成感が好き。<br />
-            ・現在は、リマインダーアプリをつくってて、FireBaseに苦戦中。<br />
-            ・ReactNativeも勉強し始めました。
+            ・テクノロジーを活用して、ユーザーにとって魔法のような体験を作りたい。<br />
+            ・1年間通ったプログラミングスクールを通して、Web制作のスキルを身に着けました。<br />
+            ・現在は、長期インターンでスキルを活かしながら働いています。
           </p>
-          <p class="pt-5">　使用言語は…</p>
+          <h6>HCIに関連する研究分野で院進予定</h6>
           <p>
-            HTML, CSS, JavaScript, React, TypeScript, Nodejs, MySQL, AWS 等<br />
+            ・人とテクノロジーのインターフェースに興味を持ち、ユーザー体験を深く考えています。<br />
+            ・新しい技術やトレンドを学び、日々成長を目指しています。
+          </p>
+
+          <h5 class="pt-5 pb-3">「できること」</h5>
+          <h6>HTML5/CSS3を使用した静的サイトの作成</h6>
+          <p>
+            ・レスポンシブデザイン対応のWebページを作成し、さまざまなデバイスでの最適な表示を実現します。
+          </p>
+          <h6>Reactを使用したWebアプリケーションの開発</h6>
+          <p>
+            ・動的なWebアプリケーションの構築が可能で、ユーザーとのインタラクションを実装します。
           </p>
         </div>
       </div>
 
       <!-- works -->
       <div id="works" class="mx-3 my-5">
-        <h2 class="fw-bold">works</h2>
-        <p class="p-4 fs-1">
-          If you don’t like where you are, change it. You’re not a tree.
+        <h2 class="fw-bold pt-5 ff_JS">works</h2>
+        <p class="p-4 fs-2 ff_JS">
+          My potential is limitless. Everything can change depending on my
+          choices and actions.
         </p>
-        <div class="p-4">
+        <div class="p-4 r_card">
           <!-- カード(ASC) -->
           <article class="card my-3">
             <img src="img/work01.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Portfolio ver.01</h5>
+              <h5 class="card-title ff_JS">Portfolio ver.02</h5>
               <p class="card-text">
-                webデザインを学習して一番最初に作った制作物。<br />
-                こだわりはうさぎのロゴ。我ながら自分の書くうさぎが好き。
+                自身のポートフォリオ。HTML5/CSS3/JavaScriptを使用し、レスポンシブにも配慮した作品です。<br />
+                実は、<a
+                  href="https://yu-rimasui.github.io/work02_portfolio/"
+                  class="btn-outline-dark"
+                  target="_blank"
+                  >ver.01</a
+                >もあるんです、初めての作品です。
               </p>
               <a
-                href="https://yu-rimasui.github.io/portfolio/"
+                href="https://yu-rimasui.github.io/work07-portfolio2/"
                 class="btn btn-outline-dark"
                 target="_blank"
                 >Take a look 😊</a
@@ -140,10 +163,10 @@
           <article class="card my-3">
             <img src="img/work02.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Cafe Site</h5>
+              <h5 class="card-title ff_JS">Cafe Site</h5>
               <p class="card-text">
                 空想カフェのホームページ。<br />
-                お母さんの夢、いつか実現させてあげたいです。
+                お母さんの夢、いつか実現させてあげたい。
               </p>
               <a
                 href="https://yu-rimasui.github.io/chi-cafe/"
@@ -156,7 +179,7 @@
           <article class="card my-3">
             <img src="img/work03.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Calculator</h5>
+              <h5 class="card-title ff_JS">Calculator</h5>
               <p class="card-text">
                 React勉強したくてつくった初めてのWebアプリ。<br />
                 電卓以外の要素にこだわってしまいました笑
@@ -172,7 +195,7 @@
           <article class="card my-3">
             <img src="img/work04.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Weekly Calendar</h5>
+              <h5 class="card-title ff_JS">Weekly Calendar</h5>
               <p class="card-text">
                 初めてCRUDを意識してつくったアプリ。<br />
                 一週間の予定を、時間割アプリのように管理するアプリ。<br />
@@ -191,7 +214,7 @@
           <article class="card my-3">
             <img src="img/work05.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Reminder App</h5>
+              <h5 class="card-title ff_JS">Reminder App</h5>
               <p class="card-text">
                 卒業制作（未完成）<br />
                 タスク管理する管理者と、タスクを閲覧するユーザーに機能が分かれていて、
@@ -214,7 +237,7 @@
       class="bg-dark d-flex justify-content-center align-items-center"
       style="height: 6rem"
     >
-      <small class="text-white">&copy;yu-rimasui</small>
+      <small class="text-white">&copy;masui.y</small>
     </footer>
   </body>
 </html>
