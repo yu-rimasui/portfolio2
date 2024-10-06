@@ -46,3 +46,21 @@ p {
 .ff_JS {
   font-family: "Josefin Sans", sans-serif;
 }
+
+table {
+  width: 100%; /* 全テーブルの幅を100%に */
+  border-collapse: collapse; /* 境界線を一つにする */
+  margin-bottom: 20px; /* テーブル間の余白 */
+}
+th, td {
+/*  border: 1px solid #000;  枠線を追加 */
+  padding: 8px; /* セルの内側に余白を追加 */
+  text-align: left; /* テキストを左寄せ */
+  width: 33%; /* 各列の幅を33%に設定し、均等に配置 */
+}
+th {
+/*  background-color: #f2f2f2;  ヘッダの背景色を変更 */
+}
+h6 {
+  margin-top: 40px;
+}
